@@ -1,0 +1,539 @@
+@font-face {
+    font-family: "Florist Deco";
+    src: url("../fonts/Florist Deco.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Rio-Negro Lines";
+    src: url("../fonts/Rio-Negro Lines.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Camelia Deco";
+    src: url("../fonts/Camelia Deco.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PaytoneOne-Regular";
+    src: url("../fonts/PaytoneOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "VictorMono-Medium";
+    src: url("../fonts/VictorMono-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.block1 {
+    width:100%;
+    position: absolute;
+    height: 950px;
+    background: #74777D;
+    border-radius: 0;
+    left: 0px;
+    top: 0px;
+}
+.block2 {
+    width:100%;
+    position: absolute;
+    height: 2000px;
+    background: #121111;
+    border-radius: 0;
+    left: 0px;
+    top: 950px;
+}
+.block3 {
+    width:100%;
+    position: absolute;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 0;
+    left: 0px;
+    top: 2950px;
+}
+.block12 {
+    position: absolute;
+    width: 65%;
+    height: 2000px;
+    left: 17.5%;
+    top: 200px;
+    background: #E3D812;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 256px;
+    height: 256px;
+}
+.bar {
+    position: absolute;
+    width: 60%;
+    height: 25px;
+    left: 20%;
+    top: 30px;
+}
+.bar-button-1 {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    left: 0%;
+    top: 0px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.bar-button-1:visited {
+    color: black;
+}
+.bar-button-2 {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    left: 20%;
+    top: 0px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.bar-button-2:visited {
+    color: black;
+}
+.bar-button-3 {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    left: 40%;
+    top: 0px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.bar-button-3:visited {
+    color: black;
+}
+.bar-button-4 {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    left: 60%;
+    top: 0px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.bar-button-4:visited {
+    color: black;
+}
+.bar-button-5 {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    left: 80%;
+    top: 0px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.bar-button-5:visited {
+    color: black;
+}
+.instagram {
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.tiktok {
+    position: absolute;
+    top: 175px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.vk {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.youtube {
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.twitter {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.name-instagram {
+    position: absolute;
+    top: 240px;
+    left: 70px;
+    text-decoration: none;
+    font-family: "Florist Deco";
+    color: black;
+    font-size: 25px;
+}
+.name-instagram:visited {
+    color: black;
+}
+.name-tiktok {
+    position: absolute;
+    top: 185px;
+    left: 70px;
+    text-decoration: none;
+    font-family: "Florist Deco";
+    color: black;
+    font-size: 25px;
+}
+.name-tiktok:visited {
+    color: black;
+}
+.name-vk {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    text-decoration: none;
+    font-family: "Florist Deco";
+    color: black;
+    font-size: 25px;
+}
+.name-vk:visited {
+    color: black;
+}
+.name-youtube {
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    text-decoration: none;
+    font-family: "Florist Deco";
+    color: black;
+    font-size: 25px;
+}
+.name-youtube:visited {
+    color: black;
+}
+.name-twitter {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    text-decoration: none;
+    font-family: "Florist Deco";
+    color: black;
+    font-size: 25px;
+}
+.name-twitter:visited {
+    color: black;
+}
+.block-photo-1 {
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.block-photo-2 {
+    position: absolute;
+    top: 800px;
+    right: 5%;
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.block-photo-3 {
+    position: absolute;
+    margin: 0;
+    top: 1000px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.heading {
+    font-family: "VictorMono-Medium";
+    font-size: xxx-large;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    width: 600px;
+    height: 50px;
+}
+.clarification {
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+    position: absolute;
+    top: 280px;
+    left: 75px;
+    width: 600px;
+    height: 50px;
+}
+.text {
+    font-family: "VictorMono-Medium";
+    position: absolute;
+    top: 400px;
+    left: 75px;
+    width: 500px;
+    height: 200px;
+}
+.button {
+    position: absolute;
+    top: 1200px;
+    left: 65%;
+    width: 120px;
+    height: 30px;
+    background: white;
+    border-radius: 50px;
+}
+.text-1 {
+    font-family: "VictorMono-Medium";
+    position: absolute;
+    font-size: x-large;
+    top: 1200px;
+    left: 25%;
+    width: 500px;
+    height: 20px;
+}
+.name-box-1 {
+    position: absolute;
+    top: 1400px;
+    left: 10%;
+    width: 500px;
+    height: 150px;
+    background: white;
+}
+.name-box-2 {
+    position: absolute;
+    top: 1600px;
+    left: 10%;
+    width: 500px;
+    height: 150px;
+    background: white;
+}
+.photo-box-1 {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 128px;
+    height: 128px;
+    background: white;
+    border-radius: 64px;
+}
+.photo-box-2 {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 128px;
+    height: 128px;
+    background: white;
+    border-radius: 64px;
+}
+.text-box-1 {
+    position: absolute;
+    top: 11px;
+    left: 150px;
+    width: 338px;
+    height: 128px;
+    background: white;
+    border-radius: 64px;
+    font-family: "VictorMono-Medium";
+    font-size: xxx-large;
+}
+.text-box-2 {
+    position: absolute;
+    top: 11px;
+    left: 150px;
+    width: 338px;
+    height: 128px;
+    background: white;
+    border-radius: 64px;
+    font-family: "VictorMono-Medium";
+    font-size: xxx-large;
+}
+.heading-front-1 {
+    position: absolute;
+    top: 1390px;
+    left: 55%;
+    width: 300px;
+    height: 30px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+}
+.heading-front-2 {
+    position: absolute;
+    top: 1590px;
+    left: 55%;
+    width: 300px;
+    height: 30px;
+    font-family: "VictorMono-Medium";
+    font-size: x-large;
+}
+.text-front-1 {
+    position: absolute;
+    top: 1450px;
+    left: 55%;
+    width: 500px;
+    height: 100px;
+    font-family: "VictorMono-Medium";
+}
+.text-front-2 {
+    position: absolute;
+    top: 1650px;
+    left: 55%;
+    width: 500px;
+    height: 100px;
+    font-family: "VictorMono-Medium";
+}
+.ball {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    background: #E3D812;
+    top: 2886px;
+    left: 48%;
+    border-radius: 64px;
+}
+.block-front {
+    position: absolute;
+    top: 150px;
+    left: 60%;
+    width: 512px;
+    height: 512px;
+    border-radius: 25px;
+}
+.box-down-1 {
+    position: absolute;
+    top: 1300px;
+    left: 20%;
+    width: 200px;
+    height: 50px;
+    background: aqua;
+}
+.box-down-2 {
+    position: absolute;
+    top: 1300px;
+    left: 36.7%;
+    width: 200px;
+    height: 50px;
+    background: aqua;
+}
+.box-down-3 {
+    position: absolute;
+    top: 1300px;
+    left: 53.7%;
+    width: 200px;
+    height: 50px;
+    background: aqua;
+}
+.box-down-4 {
+    position: absolute;
+    top: 1300px;
+    left: 70%;
+    width: 200px;
+    height: 50px;
+    background: aqua;
+}
+.box-down-elipse-1 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background: #ffffb3;
+    top: 1500px;
+    left: 20%;
+    border-radius: 48px;
+}
+.box-down-elipse-2 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background: #ffffb3;
+    top: 1500px;
+    left: 40%;
+    border-radius: 48px;
+}
+.box-down-elipse-3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background: #ffffb3;
+    top: 1500px;
+    left: 60%;
+    border-radius: 48px;
+}
+.box-down-elipse-box-1 {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background: aquamarine;
+    top: 1518px;
+    left: 26%;
+}
+.box-down-elipse-box-2 {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background: aquamarine;
+    top: 1518px;
+    left: 46%;
+}
+.box-down-elipse-box-3 {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background: aquamarine;
+    top: 1518px;
+    left: 66%;
+}
+.share-box-1 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    top: 50px;
+    left: 1100px;
+}
+.share-box-2 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    top: 50px;
+    left: 1400px;
+}
+.share-box-3 {
+    position: absolute;
+    width: 150px;
+    height: 200 px;
+    top: 50px;
+    left: 1700px;
+}
